@@ -8,6 +8,6 @@ draft: false
 
 ### 关于我
 
-*  大龄码农
-*  Backend (C/C++ golang python)
-*  Email: Y2hlY2traW5nQGZveG1haWwuY29t
+* 大龄码农
+* Backend (C/C++ golang python)
+* Email: Y2hlY2traW5nQGZveG1haWwuY29t

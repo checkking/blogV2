@@ -8,7 +8,6 @@ draft: false
 
 ### 方案
 新加一个函数对库函数进行包装，然后recover住panic，并且调用的地方能够感知到出错了。打算在将recover返回的error信息返回给调用函数。因此做了如下改造：
-原函数:
 ```go
 func (r *Request) ReplyRunOnceDataV2(statuscode int, contentType string, data []byte) (err interface{}) {
     defer func() {
